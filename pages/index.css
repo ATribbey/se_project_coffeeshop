@@ -163,6 +163,7 @@
 }
 
 .recipes__video-caption {
+  display: flex;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
