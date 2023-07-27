@@ -152,14 +152,10 @@
 .recipes__videos {
   display: flex;
   margin: auto;
+  gap: 40px;
 }
 
 .recipes__iframe {
-  margin-right: 40px;
-}
-
-.recipes__iframe:last-child {
-  margin-right: 0;
 }
 
 .recipes__video-caption {
@@ -168,4 +164,5 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+  justify-content: space-between;
 }
