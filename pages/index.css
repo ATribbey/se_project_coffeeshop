@@ -248,6 +248,8 @@
   margin-top: 32px;
   border: #838383;
   border-radius: 2px;
+  width: 20px;
+  height: 20px;
 }
 
 .form__label .form__checkbox {
