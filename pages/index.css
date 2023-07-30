@@ -203,6 +203,7 @@
 .form__fieldset {
   display: flex;
   flex-direction: column;
+  border: 0;
 }
 
 .form__label {
@@ -245,12 +246,16 @@
 
 .form__checkbox {
   margin: 0;
-  margin-top: 32px;
   border: #838383;
   border-radius: 2px;
   width: 20px;
   height: 20px;
 }
 
-.form__label .form__checkbox {
+.form__label.form__label_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 12px;
 }
