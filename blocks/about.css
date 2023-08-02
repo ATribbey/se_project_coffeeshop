@@ -18,11 +18,11 @@
   background-color: #0a2850;
   z-index: 0;
   overflow: hidden;
+  margin: 0;
 }
 
 .about__title {
   color: #fff;
-  margin: 0;
   margin-top: 100px;
   margin-left: 80px;
   max-width: 251px;
@@ -45,7 +45,6 @@
 
 .about__paragraph {
   font-family: "Noto Serif", "Times New Roman", serif;
-  margin: 0;
   margin-bottom: 20px;
 }
 
